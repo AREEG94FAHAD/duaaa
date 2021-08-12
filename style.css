@@ -1,0 +1,56 @@
+body{
+    background-color: cornsilk;
+}
+
+h1{
+    color: brown;
+    font-size: xx-large;
+    margin: 10px;
+    padding: 10px;
+}
+
+#as,#zaman, #ahad, #waa, #ndb{
+    font-size: x-large;
+    padding: 10px;
+    margin: 40px;
+    text-align: justify;
+    word-spacing: 10px;  
+
+}
+
+
+li{
+    font-size: x-large;
+    padding: 10px;
+    margin: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 102, 128);
+}
+
+a:visited {
+    color: rgb(0, 102, 128);
+  }
+
+  /* Flaired edges, by Tomas Theunissen */
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
